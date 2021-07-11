@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/${database.name}
+      uri: mongodb://${database.url}/${database.name}
 
 database:
   name: test-db
