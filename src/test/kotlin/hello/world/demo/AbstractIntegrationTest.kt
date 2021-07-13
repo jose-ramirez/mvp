@@ -11,7 +11,6 @@ import org.springframework.test.context.support.TestPropertySourceUtils
 import org.testcontainers.junit.jupiter.Container
 import org.testcontainers.junit.jupiter.Testcontainers
 
-@Testcontainers
 @ActiveProfiles("test")
 @Import(TestConfig::class)
 @ContextConfiguration(
